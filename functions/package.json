@@ -1,0 +1,14 @@
+{
+  "name": "solchat-functions",
+  "description": "Cloud Functions for Solchat Notifications",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "private": true
+}

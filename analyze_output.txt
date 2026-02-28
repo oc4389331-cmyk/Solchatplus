@@ -1,0 +1,34 @@
+Analyzing solchat...                                            
+
+   info - The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' - lib\features\auth\auth_service.dart:5:8 - unnecessary_import
+warning - The value of the local variable 'signedMessage' isn't used - lib\features\auth\auth_service.dart:71:18 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\chat_list_screen.dart:25:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\chat_list_screen.dart:66:45 - deprecated_member_use
+warning - Unnecessary cast - lib\features\chat\chat_list_screen.dart:88:30 - unnecessary_cast
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\chat_list_screen.dart:138:58 - deprecated_member_use
+   info - Unnecessary use of 'toList' in a spread - lib\features\chat\chat_screen.dart:166:26 - unnecessary_to_list_in_spreads
+warning - The declaration '_formatTime' isn't referenced - lib\features\chat\chat_screen.dart:265:10 - unused_element
+   info - Don't invoke 'print' in production code - lib\features\chat\chat_service.dart:96:7 - avoid_print
+  error - Undefined name 'WidgetsFlutterBinding' - lib\main.dart:2:3 - undefined_identifier
+   info - Don't invoke 'print' in production code - lib\main.dart:9:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\main.dart:11:5 - avoid_print
+  error - The function 'runApp' isn't defined - lib\main.dart:14:3 - undefined_function
+  error - The name 'ProviderScope' isn't a class - lib\main.dart:15:11 - creation_with_non_type
+  error - Classes can only extend other classes - lib\main.dart:21:21 - extends_non_class
+  error - No associated named super constructor parameter - lib\main.dart:22:22 - super_formal_parameter_without_associated_named
+  error - Undefined class 'Widget' - lib\main.dart:25:3 - undefined_class
+warning - The method doesn't override an inherited method - lib\main.dart:25:10 - override_on_non_overriding_member
+  error - Undefined class 'BuildContext' - lib\main.dart:25:16 - undefined_class
+  error - The method 'MaterialApp' isn't defined for the type 'MyApp' - lib\main.dart:26:12 - undefined_method
+  error - The method 'ThemeData' isn't defined for the type 'MyApp' - lib\main.dart:30:14 - undefined_method
+  error - Undefined name 'ColorScheme' - lib\main.dart:31:22 - undefined_identifier
+  error - The name 'Color' isn't a class - lib\main.dart:32:28 - creation_with_non_type
+  error - Undefined name 'Brightness' - lib\main.dart:33:23 - undefined_identifier
+  error - The method 'ThemeData' isn't defined for the type 'MyApp' - lib\main.dart:37:18 - undefined_method
+  error - Undefined name 'ColorScheme' - lib\main.dart:38:22 - undefined_identifier
+  error - The name 'Color' isn't a class - lib\main.dart:39:28 - creation_with_non_type
+  error - Undefined name 'Brightness' - lib\main.dart:40:23 - undefined_identifier
+  error - Undefined name 'ThemeMode' - lib\main.dart:44:18 - undefined_identifier
+  error - The name 'AuthWrapper' isn't a class - lib\main.dart:45:19 - creation_with_non_type
+  error - The argument type 'MyApp' can't be assigned to the parameter type 'Widget'.  - test\widget_test.dart:16:29 - argument_type_not_assignable
+

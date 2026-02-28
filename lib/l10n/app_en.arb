@@ -1,0 +1,278 @@
+{
+  "@@locale": "en",
+  "appName": "Solchatplus",
+  "aboutTitle": "About Solchatplus",
+  "architecture": "Architecture",
+  "architectureDesc": "Solchatplus is designed for blockchain architecture, ensuring security and decentralization.",
+  "copyright": "Copyright",
+  "copyrightDesc": "All app rights belong to @hoku84, the application developer.",
+  "supportProject": "Support the Project",
+  "donationDesc": "We need donations for Solchatplus to grow and improve, as well as to allow us to implement more features.",
+  "donateButton": "Donate 0.01 SOL",
+  "processing": "Processing...",
+  "copyAddress": "Copy Address",
+  "addressCopied": "Address copied",
+  "connectWalletToDonate": "Connect your wallet to donate",
+  "donationSent": "Donation sent! Sig: {signature}",
+  "@donationSent": {
+    "placeholders": {
+      "signature": {
+        "type": "String"
+      }
+    }
+  },
+  "donationError": "Donation error: {error}",
+  "@donationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Settings",
+  "appearance": "Appearance",
+  "system": "System",
+  "light": "Light",
+  "dark": "Dark",
+  "language": "Language",
+  "privacy": "Privacy",
+  "onlineStatus": "Online Status",
+  "onlineStatusDesc": "Show others when you are active",
+  "notifications": "Notifications",
+  "enableNotifications": "Enable Notifications",
+  "blockedUsers": "Blocked Users",
+  "blockedUsersDesc": "Manage your blocked contacts",
+  "infoRightsDonations": "Info, rights and donations",
+  "connectWallet": "Connect your Solana Wallet",
+  "connectWalletButton": "Connect Wallet",
+  "walletNotFound": "Wallet not found. Do you have Phantom installed?",
+  "connectionErrorLogin": "Connection error: {error}",
+  "@connectionErrorLogin": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "chats": "Chats",
+  "search": "Search",
+  "invalidAddress": "Invalid Solana Address format",
+  "errorOpeningChat": "Error opening chat: {error}",
+  "@errorOpeningChat": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "newGroup": "New Group",
+  "noChatsYet": "No chats yet. Start one!",
+  "lastMessageNone": "No messages",
+  "deleteChat": "Delete Chat",
+  "deleteChatConfirm": "Delete Chat?",
+  "deleteChatDesc": "This will delete the chat history for you.",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "chatDeleted": "Chat deleted",
+  "newChatPrivate": "New Private Chat",
+  "createCommunityDesc": "Create a community (0.01 SOL / 31 SKR)",
+  "newChat": "New Chat",
+  "enterWalletAddress": "Enter Wallet Address",
+  "startChat": "Start Chat",
+  "failedToCreateChat": "Failed to create chat: {error}",
+  "@failedToCreateChat": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialMessage": "Press the '+' button to add someone and start your first chat bubble!",
+  "cameraPermissionRequired": "Camera permission is required to send photos",
+  "sendPayment": "Send Payment",
+  "solanaToken": "Solana (SOL)",
+  "seekerToken": "Seeker (SKR)",
+  "amountLabel": "Amount ({token})",
+  "@amountLabel": {
+    "placeholders": {
+      "token": {
+        "type": "String"
+      }
+    }
+  },
+  "invalidNumber": "Invalid number",
+  "amountGreaterThanZero": "Amount must be greater than 0",
+  "minSolAmount": "Minimum 0.000000001 SOL",
+  "minSkrAmount": "Minimum 0.000001 SKR",
+  "paymentSentMsg": "Sent {amount} {token}",
+  "@paymentSentMsg": {
+    "placeholders": {
+      "amount": { "type": "double" },
+      "token": { "type": "String" }
+    }
+  },
+  "paymentFailed": "Payment failed: {error}",
+  "@paymentFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "invalidTokenAccount": "Error: Invalid Token Account. You may need to receive SKR again to refresh your account.",
+  "insufficientFundsRent": "Insufficient funds. You need at least ~0.002 SOL to activate a new account.",
+  "blockchainError": "Blockchain Error (-32002). Check SOL balance or network.",
+  "transactionCancelled": "Transaction cancelled by user.",
+  "networkBusy": "Network busy. Please try again.",
+  "recipientNotInitialized": "Failed: Recipient needs to initialize their SKR wallet first.",
+  "noSkrBalance": "You do not have any SKR tokens to send.",
+  "comingSoon": "{feature} coming soon!",
+  "@comingSoon": {
+    "placeholders": {
+      "feature": { "type": "String" }
+    }
+  },
+  "saveToContacts": "Save to Contacts",
+  "addContactDesc": "Add this wallet to your local contacts. You can optionally set a custom name below:",
+  "customNameOptional": "Custom Name (Optional)",
+  "customNameHint": "e.g. My Friend John",
+  "saveContact": "Save Contact",
+  "savedAs": "Saved as \"{name}\"",
+  "@savedAs": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "walletSaved": "Wallet saved to contacts",
+  "emptyChatHistory": "Empty Chat",
+  "emptyChatConfirmDesc": "Are you sure you want to clear this chat history? This action cannot be undone.",
+  "chatHistoryCleared": "Chat history cleared",
+  "empty": "Empty",
+  "notAuthenticated": "Not authenticated",
+  "offline": "Offline",
+  "online": "Online",
+  "seenMinutesAgo": "Seen {minutes}m ago",
+  "@seenMinutesAgo": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "seenHoursAgo": "Seen {hours}h ago",
+  "@seenHoursAgo": {
+    "placeholders": {
+      "hours": { "type": "int" }
+    }
+  },
+  "micPermissionRequired": "Microphone permission is required for calls",
+  "addToContacts": "Add to Contacts",
+  "unblockUser": "Unblock User",
+  "blockUser": "Block User",
+  "userUnblocked": "User unblocked",
+  "userBlocked": "User blocked",
+  "paymentConfirmed": "Payment Confirmed",
+  "typeMessage": "Type a message...",
+  "youBlockedUser": "You have blocked this user.",
+  "userBlockedYou": "This user has blocked you.",
+  "walletDetails": "Wallet Details",
+  "addressLabel": "Address:",
+  "copy": "Copy",
+  "close": "Close",
+  "deleteMessageConfirm": "Delete Message?",
+  "deleteMessageDesc": "This message will be deleted for everyone.",
+  "messageDeleted": "Message deleted",
+  "failedToDelete": "Failed to delete",
+  "noPermission": "No permission. Update Firebase rules.",
+  "imageError": "Image error",
+  "copyAddressClipboard": "Address copied to clipboard",
+  "send": "Send",
+  "chat": "Chat",
+  "enterGroupName": "Please enter a group name",
+  "selectAtLeastOneMember": "Please select at least one member",
+  "confirmPayment": "Confirm Payment",
+  "groupCreationFeeDesc": "A payment of {fee} {token} is required to create this group. Do you want to continue?",
+  "@groupCreationFeeDesc": {
+    "placeholders": {
+      "fee": { "type": "String" },
+      "token": { "type": "String" }
+    }
+  },
+  "payAndCreate": "Pay and Create",
+  "newGroupTitle": "New Group",
+  "addMembers": "Add Members",
+  "confirmAndPay": "Confirm and Pay",
+  "groupName": "Group Name",
+  "groupIdentityDesc": "Choose a catchy name and use an NFT as an identity for your community.",
+  "selectMembersDesc": "Select the members of your new group",
+  "noContactsFound": "You have no contacts or recent chats.",
+  "groupSummary": "Group Summary",
+  "membersSelected": "{count} members selected",
+  "@membersSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "paymentMethod": "Payment Method",
+  "groupCreationNotice": "Creating the group will process a transaction on the blockchain.\nThe creator automatically becomes an administrator.",
+  "next": "Next",
+  "createGroupAndPay": "Create Group and Pay",
+  "scanWalletQR": "Scan Wallet QR",
+  "alignQRDesc": "Align QR code within frame",
+  "scanSolanaAddress": "Scan a Solana Wallet Address",
+  "profile": "Profile",
+  "walletAddress": "Wallet Address",
+  "notConnected": "Not connected",
+  "showMyQRCode": "Show My QR Code",
+  "nickname": "Nickname",
+  "errorLoadingProfile": "Error loading profile",
+  "nicknameEmptyError": "Nickname cannot be empty",
+  "nicknameTakenError": "This nickname is already being used",
+  "nicknameUpdated": "Nickname updated!",
+  "saveNickname": "Save Nickname",
+  "disconnectWallet": "Disconnect Wallet",
+  "searchHint": "Search by nickname or address...",
+  "noUsersFound": "No users found",
+  "unknownUser": "Unknown User",
+  "onboardingWelcome": "Welcome to SolChat!",
+  "onboardingDesc": "Personalize your profile so others can find you easily.",
+  "yourNickname": "Your Nickname",
+  "nicknameHint": "e.g. JuanSolana",
+  "startChatting": "Start Chatting",
+  "changeLaterNotice": "You can change these later in your profile.",
+  "nicknameRequired": "Nickname is required",
+  "nicknameInUse": "This nickname is already in use",
+  "errorSaving": "Error saving: {error}",
+  "@errorSaving": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "blockedUsers": "Blocked Users",
+  "noBlockedUsers": "No blocked users",
+  "unblockButton": "UNBLOCK",
+  "unblockUserConfirm": "Unblock User?",
+  "unblockUserDesc": "They will be able to message you and see your status.",
+  "myQRCode": "My QR Code",
+  "walletNotConnected": "Wallet not connected",
+  "scanToStartChat": "Scan to start a chat",
+  "copyAddress": "Copy Address",
+  "selectNftAvatar": "Select NFT Avatar",
+  "errorLoadingNfts": "Error loading NFTs: {error}",
+  "@errorLoadingNfts": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "noNftsFound": "No NFTs found in this wallet.",
+  "avatarUpdated": "Avatar updated!",
+  "activeChatSound": "Active chat sound",
+  "activeChatSoundDesc": "Choose sound for messages when the chat is open",
+  "defaultSound": "Default",
+  "referredGames": "Referred Games",
+  "leaveGroup": "Leave Group",
+  "confirmLeaveGroup": "Are you sure you want to leave this group?",
+  "manageGroup": "Manage Group",
+  "removeFromGroup": "Remove from Group",
+  "makeAdmin": "Make Admin",
+  "lockGroup": "Lock Group (Admins Only)",
+  "unlockGroup": "Unlock Group",
+  "onlyAdminsCanMessage": "Only admins can send messages",
+  "groupMembers": "Group Members"
+}

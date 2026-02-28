@@ -1,0 +1,61 @@
+Analyzing solchat...                                            
+
+   info - The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' - lib\features\auth\auth_service.dart:6:8 - unnecessary_import
+warning - The value of the local variable 'signedMessage' isn't used - lib\features\auth\auth_service.dart:78:18 - unused_local_variable
+   info - Don't invoke 'print' in production code - lib\features\auth\auth_service.dart:104:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\auth\auth_service.dart:115:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\auth\user_service.dart:28:7 - avoid_print
+   info - The imported package 'zego_uikit_signaling_plugin' isn't a dependency of the importing package - lib\features\call\call_service.dart:5:8 - depend_on_referenced_packages
+  error - The method 'ZegoUIKit' isn't defined for the type 'CallService' - lib\features\call\call_service.dart:21:7 - undefined_method
+   info - Don't invoke 'print' in production code - lib\features\chat\chat_service.dart:96:7 - avoid_print
+warning - Unused import: 'package:solchat/models/message_model.dart' - lib\features\chat\data\chat_repository.dart:6:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\features\chat\data\chat_repository.dart:265:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\chat\data\chat_repository.dart:326:7 - avoid_print
+   info - The imported package 'sqlite3' isn't a dependency of the importing package - lib\features\chat\data\local\app_database.dart:6:8 - depend_on_referenced_packages
+   info - Don't use 'BuildContext's across async gaps - lib\features\chat\screens\chat_list_screen.dart:276:46 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\features\chat\screens\chat_list_screen.dart:291:25 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\features\chat\screens\chat_list_screen.dart:297:44 - use_build_context_synchronously
+   info - The imported package 'zego_uikit' isn't a dependency of the importing package - lib\features\chat\screens\chat_screen.dart:13:8 - depend_on_referenced_packages
+warning - Unused import: 'package:solchat/services/storage_service.dart' - lib\features\chat\screens\chat_screen.dart:17:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\chat\screens\chat_screen.dart:318:35 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\chat\screens\chat_screen.dart:319:42 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\chat\screens\chat_screen.dart:352:41 - use_build_context_synchronously
+warning - The value of the local variable 'pubKey' isn't used - lib\features\profile\nft_service.dart:29:13 - unused_local_variable
+   info - Don't invoke 'print' in production code - lib\features\profile\nft_service.dart:53:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\profile\nft_service.dart:102:14 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\profile\nft_service.dart:114:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\profile\nft_service.dart:120:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\profile\nft_service.dart:131:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\profile\nft_service.dart:158:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\profile\nft_service.dart:187:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\profile\nft_service.dart:190:7 - avoid_print
+warning - The operand can't be 'null', so the condition is always 'false' - lib\features\profile\nft_service.dart:216:23 - unnecessary_null_comparison
+warning - The value of 'refresh' should be used - lib\features\profile\profile_screen.dart:69:34 - unused_result
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\profile\profile_screen.dart:121:45 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\profile\profile_screen.dart:129:44 - use_build_context_synchronously
+warning - Unused import: 'package:solana/base58.dart' - lib\features\solana\solana_service.dart:3:8 - unused_import
+warning - Unused import: 'package:solana/dto.dart' - lib\features\solana\solana_service.dart:6:8 - unused_import
+warning - Unused import: 'package:solchat/features/auth/auth_service.dart' - lib\features\solana\solana_service.dart:8:8 - unused_import
+warning - The value of the field '_ref' isn't used - lib\features\solana\solana_service.dart:17:13 - unused_field
+   info - Don't invoke 'print' in production code - lib\features\solana\solana_service.dart:169:10 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\solana\solana_service.dart:175:10 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\solana\solana_service.dart:182:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\main.dart:17:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\main.dart:25:5 - avoid_print
+warning - Unused import: 'package:googleapis_auth/googleapis_auth.dart' - lib\services\notification_service.dart:6:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:11:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:35:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:66:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:67:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:70:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:80:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:159:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:160:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:168:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:61:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:82:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:106:7 - avoid_print
+warning - The value of the local variable 'directory' isn't used - lib\services\storage_service.dart:114:16 - unused_local_variable
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:130:12 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:156:7 - avoid_print
+

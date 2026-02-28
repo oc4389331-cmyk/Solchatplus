@@ -1,0 +1,34 @@
+Launching lib\main.dart on SM A366E in debug mode...
+Running Gradle task 'assembleDebug'...                          
+[ZEGO][PLUGIN] Download native dependency
+[ZEGO][PLUGIN] Native version: 3.20.0.43543
+[ZEGO][PLUGIN] The specified version SDK already exists!
+lib/features/chat/screens/chat_screen.dart:693:61: Error: 'LocalMessage' isn't a type.
+                    final messages = (snapshot.data as List<LocalMessage>?) ?? [];
+                                                            ^^^^^^^^^^^^
+lib/features/contacts/contact_repository.dart:22:25: Error: Can't find '}' to match '{'.
+class ContactRepository {
+                        ^
+lib/features/contacts/contact_repository.dart:19:15: Error: The method 'watchAllContacts' isn't defined for the class 'ContactRepository'.
+ - 'ContactRepository' is from 'package:solchat/features/contacts/contact_repository.dart' ('lib/features/contacts/contact_repository.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'watchAllContacts'.
+  return repo.watchAllContacts();
+              ^^^^^^^^^^^^^^^^
+Target kernel_snapshot_program failed: Exception
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command 'C:\src\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 9s
+Running Gradle task 'assembleDebug'...                              9.6s
+Error: Gradle task assembleDebug failed with exit code 1

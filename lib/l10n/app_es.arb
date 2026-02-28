@@ -1,0 +1,278 @@
+{
+  "@@locale": "es",
+  "appName": "Solchatplus",
+  "aboutTitle": "Acerca de Solchatplus",
+  "architecture": "Arquitectura",
+  "architectureDesc": "Solchatplus está diseñado para la arquitectura blockchain, garantizando seguridad y descentralización.",
+  "copyright": "Derechos de Autor",
+  "copyrightDesc": "Todos los derechos de la app pertenecen a @hoku84, desarrollador de la aplicación.",
+  "supportProject": "Apoya el Proyecto",
+  "donationDesc": "Necesitamos donaciones para que Solchatplus crezca y mejore, además de permitirnos implementar más funciones.",
+  "donateButton": "Donar 0.01 SOL",
+  "processing": "Procesando...",
+  "copyAddress": "Copiar Dirección",
+  "addressCopied": "Dirección copiada",
+  "connectWalletToDonate": "Conecta tu wallet para donar",
+  "donationSent": "¡Donación enviada! Sig: {signature}",
+  "@donationSent": {
+    "placeholders": {
+      "signature": {
+        "type": "String"
+      }
+    }
+  },
+  "donationError": "Error en la donación: {error}",
+  "@donationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Configuración",
+  "appearance": "Apariencia",
+  "system": "Sistema",
+  "light": "Claro",
+  "dark": "Oscuro",
+  "language": "Idioma",
+  "privacy": "Privacidad",
+  "onlineStatus": "Estado En Línea",
+  "onlineStatusDesc": "Mostrar a otros cuando estás activo",
+  "notifications": "Notificaciones",
+  "enableNotifications": "Activar Notificaciones",
+  "blockedUsers": "Personas Bloqueadas",
+  "blockedUsersDesc": "Administra tus contactos bloqueados",
+  "infoRightsDonations": "Información, derechos y donaciones",
+  "connectWallet": "Conecta tu Billetera de Solana",
+  "connectWalletButton": "Conectar Billetera",
+  "walletNotFound": "No se encontró billetera. ¿Tienes Phantom instalada?",
+  "connectionErrorLogin": "Error al conectar: {error}",
+  "@connectionErrorLogin": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "chats": "Chats",
+  "search": "Buscar",
+  "invalidAddress": "Formato de dirección Solana inválido",
+  "errorOpeningChat": "Error al abrir el chat: {error}",
+  "@errorOpeningChat": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "newGroup": "Nuevo Grupo",
+  "noChatsYet": "Aún no hay mensajes. ¡Empieza uno!",
+  "lastMessageNone": "Sin mensajes",
+  "deleteChat": "Eliminar Chat",
+  "deleteChatConfirm": "¿Eliminar Chat?",
+  "deleteChatDesc": "Esto eliminará el historial del chat para ti.",
+  "cancel": "Cancelar",
+  "delete": "Eliminar",
+  "chatDeleted": "Chat eliminado",
+  "newChatPrivate": "Nuevo Chat Privado",
+  "createCommunityDesc": "Crea una comunidad (0.01 SOL / 31 SKR)",
+  "newChat": "Nuevo Chat",
+  "enterWalletAddress": "Ingresa la Dirección de la Billetera",
+  "startChat": "Comenzar Chat",
+  "failedToCreateChat": "Error al crear el chat: {error}",
+  "@failedToCreateChat": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialMessage": "¡Presiona el botón '+' para agregar a alguien y empezar tu primera burbuja de chat!",
+  "cameraPermissionRequired": "Se requiere permiso de cámara para enviar fotos",
+  "sendPayment": "Enviar Pago",
+  "solanaToken": "Solana (SOL)",
+  "seekerToken": "Seeker (SKR)",
+  "amountLabel": "Cantidad ({token})",
+  "@amountLabel": {
+    "placeholders": {
+      "token": {
+        "type": "String"
+      }
+    }
+  },
+  "invalidNumber": "Número inválido",
+  "amountGreaterThanZero": "La cantidad debe ser mayor a 0",
+  "minSolAmount": "Mínimo 0.000000001 SOL",
+  "minSkrAmount": "Mínimo 0.000001 SKR",
+  "paymentSentMsg": "Enviado {amount} {token}",
+  "@paymentSentMsg": {
+    "placeholders": {
+      "amount": { "type": "double" },
+      "token": { "type": "String" }
+    }
+  },
+  "paymentFailed": "Pago fallido: {error}",
+  "@paymentFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "invalidTokenAccount": "Error: Cuenta de Token inválida. Es posible que necesites recibir SKR de nuevo para refrescar tu cuenta.",
+  "insufficientFundsRent": "Fondos insuficientes. Necesitas al menos ~0.002 SOL para activar una nueva cuenta.",
+  "blockchainError": "Error de Blockchain (-32002). Revisa tu saldo de SOL o la red.",
+  "transactionCancelled": "Transacción cancelada por el usuario.",
+  "networkBusy": "Red ocupada. Por favor intenta de nuevo.",
+  "recipientNotInitialized": "Falló: El destinatario necesita inicializar su wallet de SKR primero.",
+  "noSkrBalance": "No tienes tokens SKR para enviar.",
+  "comingSoon": "¡{feature} próximamente!",
+  "@comingSoon": {
+    "placeholders": {
+      "feature": { "type": "String" }
+    }
+  },
+  "saveToContacts": "Guardar en Contactos",
+  "addContactDesc": "Agrega esta billetera a tus contactos locales. Opcionalmente puedes establecer un nombre personalizado abajo:",
+  "customNameOptional": "Nombre Personalizado (Opcional)",
+  "customNameHint": "ej. Mi Amigo Juan",
+  "saveContact": "Guardar Contacto",
+  "savedAs": "Guardado como \"{name}\"",
+  "@savedAs": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "walletSaved": "Billetera guardada en contactos",
+  "emptyChatHistory": "Vaciar Chat",
+  "emptyChatConfirmDesc": "¿Estás seguro de que quieres limpiar el historial de este chat? Esta acción no se puede deshacer.",
+  "chatHistoryCleared": "Historial del chat limpiado",
+  "empty": "Vaciar",
+  "notAuthenticated": "No autenticado",
+  "offline": "Desconectado",
+  "online": "En línea",
+  "seenMinutesAgo": "Visto hace {minutes}m",
+  "@seenMinutesAgo": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "seenHoursAgo": "Visto hace {hours}h",
+  "@seenHoursAgo": {
+    "placeholders": {
+      "hours": { "type": "int" }
+    }
+  },
+  "micPermissionRequired": "Se requiere permiso de micrófono para las llamadas",
+  "addToContacts": "Agregar a Contactos",
+  "unblockUser": "Desbloquear Usuario",
+  "blockUser": "Bloquear Usuario",
+  "userUnblocked": "Usuario desbloqueado",
+  "userBlocked": "Usuario bloqueado",
+  "paymentConfirmed": "Pago Confirmado",
+  "typeMessage": "Escribe un mensaje...",
+  "youBlockedUser": "Has bloqueado a este usuario.",
+  "userBlockedYou": "Este usuario te ha bloqueado.",
+  "walletDetails": "Detalles de la Billetera",
+  "addressLabel": "Dirección:",
+  "copy": "Copiar",
+  "close": "Cerrar",
+  "deleteMessageConfirm": "¿Eliminar Mensaje?",
+  "deleteMessageDesc": "Este mensaje se eliminará para todos.",
+  "messageDeleted": "Mensaje eliminado",
+  "failedToDelete": "Error al eliminar",
+  "noPermission": "Sin permiso. Actualiza las reglas de Firebase.",
+  "imageError": "Error de imagen",
+  "copyAddressClipboard": "Dirección copiada al portapapeles",
+  "send": "Enviar",
+  "chat": "Chat",
+  "enterGroupName": "Por favor ingresa un nombre para el grupo",
+  "selectAtLeastOneMember": "Por favor selecciona al menos un miembro",
+  "confirmPayment": "Confirmar Pago",
+  "groupCreationFeeDesc": "Se requiere un pago de {fee} {token} para crear este grupo. ¿Deseas continuar?",
+  "@groupCreationFeeDesc": {
+    "placeholders": {
+      "fee": { "type": "String" },
+      "token": { "type": "String" }
+    }
+  },
+  "payAndCreate": "Pagar y Crear",
+  "newGroupTitle": "Nuevo Grupo",
+  "addMembers": "Añadir Miembros",
+  "confirmAndPay": "Confirmar y Pagar",
+  "groupName": "Nombre del Grupo",
+  "groupIdentityDesc": "Elige un nombre llamativo y usa un NFT como identidad para tu comunidad.",
+  "selectMembersDesc": "Selecciona a los integrantes de tu nuevo grupo",
+  "noContactsFound": "No tienes contactos ni chats recientes.",
+  "groupSummary": "Resumen del Grupo",
+  "membersSelected": "{count} miembros seleccionados",
+  "@membersSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "paymentMethod": "Método de Pago",
+  "groupCreationNotice": "Al crear el grupo, se procesará una transacción en la blockchain.\nEl creador se convierte en administrador automáticamente.",
+  "next": "Siguiente",
+  "createGroupAndPay": "Crear Grupo y Pagar",
+  "scanWalletQR": "Escanear QR de Billetera",
+  "alignQRDesc": "Alinea el código QR dentro del marco",
+  "scanSolanaAddress": "Escanea una Dirección de Billetera Solana",
+  "profile": "Perfil",
+  "walletAddress": "Dirección de Billetera",
+  "notConnected": "No conectado",
+  "showMyQRCode": "Mostrar mi Código QR",
+  "nickname": "Nickname",
+  "errorLoadingProfile": "Error al cargar el perfil",
+  "nicknameEmptyError": "El nickname no puede estar vacío",
+  "nicknameTakenError": "Este nickname ya está siendo usado",
+  "nicknameUpdated": "¡Nickname actualizado!",
+  "saveNickname": "Guardar Nickname",
+  "disconnectWallet": "Desconectar Billetera",
+  "searchHint": "Buscar por nickname o dirección...",
+  "noUsersFound": "No se encontraron usuarios",
+  "unknownUser": "Usuario Desconocido",
+  "onboardingWelcome": "¡Bienvenido a SolChat!",
+  "onboardingDesc": "Personaliza tu perfil para que otros puedan encontrarte fácilmente.",
+  "yourNickname": "Tu Nickname",
+  "nicknameHint": "Ej. JuanSolana",
+  "startChatting": "Empezar a Chatear",
+  "changeLaterNotice": "Podrás cambiar estos datos más tarde en tu perfil.",
+  "nicknameRequired": "El nickname es obligatorio",
+  "nicknameInUse": "Este nickname ya está en uso",
+  "errorSaving": "Error al guardar: {error}",
+  "@errorSaving": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "blockedUsers": "Usuarios Bloqueados",
+  "noBlockedUsers": "No hay usuarios bloqueados",
+  "unblockButton": "DESBLOQUEAR",
+  "unblockUserConfirm": "¿Desbloquear Usuario?",
+  "unblockUserDesc": "Podrá enviarte mensajes y ver tu estado.",
+  "myQRCode": "Mi Código QR",
+  "walletNotConnected": "Billetera no conectada",
+  "scanToStartChat": "Escanea para iniciar un chat",
+  "copyAddress": "Copiar Dirección",
+  "selectNftAvatar": "Seleccionar Avatar NFT",
+  "errorLoadingNfts": "Error al cargar NFTs: {error}",
+  "@errorLoadingNfts": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "noNftsFound": "No se encontraron NFTs en esta billetera.",
+  "avatarUpdated": "¡Avatar actualizado!",
+  "activeChatSound": "Sonido de chat activo",
+  "activeChatSoundDesc": "Elegir sonido para mensajes cuando el chat está abierto",
+  "defaultSound": "Predeterminado",
+  "referredGames": "Juegos Referidos",
+  "leaveGroup": "Abandonar Grupo",
+  "confirmLeaveGroup": "¿Estás seguro de que quieres abandonar este grupo?",
+  "manageGroup": "Administrar Grupo",
+  "removeFromGroup": "Eliminar del Grupo",
+  "makeAdmin": "Hacer Administrador",
+  "lockGroup": "Bloquear Grupo (Solo Admins)",
+  "unlockGroup": "Desbloquear Grupo",
+  "onlyAdminsCanMessage": "Solo los administradores pueden enviar mensajes",
+  "groupMembers": "Miembros del Grupo"
+}

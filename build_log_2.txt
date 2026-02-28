@@ -1,0 +1,37 @@
+Synthetic package output (package:flutter_gen) is deprecated: https://flutter.dev/to/flutter-gen-deprecation. In a future release, synthetic-package will default to `false` and will later be removed entirely.
+Launching lib\main.dart on Seeker in debug mode...
+Running Gradle task 'assembleDebug'...                          
+[ZEGO][PLUGIN] Download native dependency
+[ZEGO][PLUGIN] Native version: 3.20.0.43543
+[ZEGO][PLUGIN] The specified version SDK already exists!
+Running Gradle task 'assembleDebug'...                             18.1s
+ÔêÜ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...       
+I/flutter (  417): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(60)] Using the Impeller rendering backend (Vulkan).
+I/flutter (  417): [INFO] 2026-02-25 14:47:27.587656 [call-invitation] [service(754153189)] create
+I/flutter (  417): [INFO] 2026-02-25 14:47:27.597222 [call-invitation] [service(754153189), setNavigatorKey] isInit:false,navigatorKey:[LabeledGlobalKey<NavigatorState>#3d43c]
+Installing build\app\outputs\flutter-apk\app-debug.apk...          12.7s
+I/flutter (  969): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(60)] Using the Impeller rendering backend (Vulkan).
+Syncing files to device Seeker...                               
+I/Choreographer(  969): Skipped 404 frames!  The application may be doing too much work on its main thread.
+D/CompatChangeReporter(  969): Compat change id reported: 306666082; UID 10254; state: ENABLED
+I/WindowExtensionsImpl(  969): Initializing Window Extensions, vendor API level=6, activity embedding enabled=true
+I/example.solchat(  969): Compiler allocated 6749KB to compile void android.view.ViewRootImpl.performTraversals()
+Syncing files to device Seeker...                                  198ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on Seeker is available at: http://127.0.0.1:52894/9Mdc4mlBLng=/
+The Flutter DevTools debugger and profiler on Seeker is available at: http://127.0.0.1:9102?uri=http://127.0.0.1:52894/9Mdc4mlBLng=/
+I/flutter (  969): [INFO] 2026-02-25 14:47:35.549124 [call-invitation] [service(260574700)] create
+I/flutter (  969): [INFO] 2026-02-25 14:47:35.578137 [call-invitation] [service(260574700), setNavigatorKey] isInit:false,navigatorKey:[LabeledGlobalKey<NavigatorState>#16bd7]
+D/ProfileInstaller(  969): Installing profile for com.example.solchat
+W/example.solchat(  969): userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+I/example.solchat(  969): Background concurrent mark compact GC freed 13MB AllocSpace bytes, 34(1764KB) LOS objects, 83% free, 4936KB/28MB, paused 403us,6.003ms total 80.515ms
+Lost connection to device.

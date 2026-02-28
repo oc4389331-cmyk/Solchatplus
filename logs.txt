@@ -1,0 +1,100 @@
+2026-02-24T18:22:49.054043Z ? onMessageCreated:     message: `Invalid JSON payload received. Unknown name "groupKey" at 'message.android.notification': Cannot find field.`
+2026-02-24T18:22:49.054045Z ? onMessageCreated:   },
+2026-02-24T18:22:49.054047Z ? onMessageCreated:   codePrefix: 'messaging'
+2026-02-24T18:22:49.054050Z ? onMessageCreated: }
+2026-02-24T18:22:49.056442657Z D onMessageCreated: Function execution took 4504 ms, finished with status: 'ok'
+2026-02-24T18:22:58.545676673Z D onMessageCreated: Function execution started
+2026-02-24T18:22:58.549390Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: 527b8774-0636-4433-9e03-0011cbcbb46a
+2026-02-24T18:22:58.644248Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T18:22:58.644373Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T18:22:58.697250Z ? onMessageCreated: [onMessageCreated] Token encontrado para 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1: fX2S4LzfRR...
+2026-02-24T18:22:58.787075Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T18:22:58.842051Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T18:22:58.842724Z ? onMessageCreated: [onMessageCreated] Error en token 0: FirebaseMessagingError: Invalid JSON payload received. Unknown name "groupKey" at 'message.android.notification': Cannot find field.
+2026-02-24T18:22:58.842729Z ? onMessageCreated:     at FirebaseMessagingError.fromServerError (/workspace/node_modules/firebase-admin/lib/utils/error.js:269:16)
+2026-02-24T18:22:58.842733Z ? onMessageCreated:     at createFirebaseError (/workspace/node_modules/firebase-admin/lib/messaging/messaging-errors-internal.js:35:47)
+2026-02-24T18:22:58.842737Z ? onMessageCreated:     at FirebaseMessagingRequestHandler.buildSendResponseFromError (/workspace/node_modules/firebase-admin/lib/messaging/messaging-api-request-internal.js:186:72)
+2026-02-24T18:22:58.842740Z ? onMessageCreated:     at /workspace/node_modules/firebase-admin/lib/messaging/messaging-api-request-internal.js:137:29
+2026-02-24T18:22:58.842742Z ? onMessageCreated:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-02-24T18:22:58.842744Z ? onMessageCreated:     at async Promise.allSettled (index 0)
+2026-02-24T18:22:58.842746Z ? onMessageCreated:     at async /workspace/index.js:126:30 {
+2026-02-24T18:22:58.842748Z ? onMessageCreated:   errorInfo: {
+2026-02-24T18:22:58.842751Z ? onMessageCreated:     code: 'messaging/invalid-argument',
+2026-02-24T18:22:58.842753Z ? onMessageCreated:     message: `Invalid JSON payload received. Unknown name "groupKey" at 'message.android.notification': Cannot find field.`
+2026-02-24T18:22:58.842755Z ? onMessageCreated:   },
+2026-02-24T18:22:58.842757Z ? onMessageCreated:   codePrefix: 'messaging'
+2026-02-24T18:22:58.842759Z ? onMessageCreated: }
+2026-02-24T18:22:58.843620917Z D onMessageCreated: Function execution took 297 ms, finished with status: 'ok'
+2026-02-24T18:23:28.074554819Z D onMessageCreated: Function execution started
+2026-02-24T18:23:28.078703Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: 82bd10c0-a543-4e90-9126-df741ee061ba
+2026-02-24T18:23:28.143104Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T18:23:28.143128Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T18:23:28.188111Z ? onMessageCreated: [onMessageCreated] Token encontrado para 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4: d0e3nIfjRx...
+2026-02-24T18:23:28.282686Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T18:23:28.352056Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T18:23:28.352615Z ? onMessageCreated: [onMessageCreated] Error en token 0: FirebaseMessagingError: Invalid JSON payload received. Unknown name "groupKey" at 'message.android.notification': Cannot find field.
+2026-02-24T18:23:28.352625Z ? onMessageCreated:     at FirebaseMessagingError.fromServerError (/workspace/node_modules/firebase-admin/lib/utils/error.js:269:16)
+2026-02-24T18:23:28.352631Z ? onMessageCreated:     at createFirebaseError (/workspace/node_modules/firebase-admin/lib/messaging/messaging-errors-internal.js:35:47)
+2026-02-24T18:23:28.352637Z ? onMessageCreated:     at FirebaseMessagingRequestHandler.buildSendResponseFromError (/workspace/node_modules/firebase-admin/lib/messaging/messaging-api-request-internal.js:186:72)
+2026-02-24T18:23:28.352641Z ? onMessageCreated:     at /workspace/node_modules/firebase-admin/lib/messaging/messaging-api-request-internal.js:137:29
+2026-02-24T18:23:28.352644Z ? onMessageCreated:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-02-24T18:23:28.352648Z ? onMessageCreated:     at async Promise.allSettled (index 0)
+2026-02-24T18:23:28.352651Z ? onMessageCreated:     at async /workspace/index.js:126:30 {
+2026-02-24T18:23:28.352654Z ? onMessageCreated:   errorInfo: {
+2026-02-24T18:23:28.352658Z ? onMessageCreated:     code: 'messaging/invalid-argument',
+2026-02-24T18:23:28.352661Z ? onMessageCreated:     message: `Invalid JSON payload received. Unknown name "groupKey" at 'message.android.notification': Cannot find field.`
+2026-02-24T18:23:28.352664Z ? onMessageCreated:   },
+2026-02-24T18:23:28.352667Z ? onMessageCreated:   codePrefix: 'messaging'
+2026-02-24T18:23:28.352670Z ? onMessageCreated: }
+2026-02-24T18:23:28.353541014Z D onMessageCreated: Function execution took 278 ms, finished with status: 'ok'
+2026-02-24T18:23:40.156461226Z D onMessageCreated: Function execution started
+2026-02-24T18:23:40.160053Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: e59972fb-62c0-4d6e-9f64-870b49ea1fc4
+2026-02-24T18:23:40.243373Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T18:23:40.243452Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T18:23:40.287975Z ? onMessageCreated: [onMessageCreated] Token encontrado para 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4: d0e3nIfjRx...
+2026-02-24T18:23:40.388773Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T18:23:40.406005Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T18:23:40.406719Z ? onMessageCreated: [onMessageCreated] Error en token 0: FirebaseMessagingError: Invalid JSON payload received. Unknown name "groupKey" at 'message.android.notification': Cannot find field.
+2026-02-24T18:23:40.406725Z ? onMessageCreated:     at FirebaseMessagingError.fromServerError (/workspace/node_modules/firebase-admin/lib/utils/error.js:269:16)
+2026-02-24T18:23:40.406729Z ? onMessageCreated:     at createFirebaseError (/workspace/node_modules/firebase-admin/lib/messaging/messaging-errors-internal.js:35:47)
+2026-02-24T18:23:40.406733Z ? onMessageCreated:     at FirebaseMessagingRequestHandler.buildSendResponseFromError (/workspace/node_modules/firebase-admin/lib/messaging/messaging-api-request-internal.js:186:72)
+2026-02-24T18:23:40.406736Z ? onMessageCreated:     at /workspace/node_modules/firebase-admin/lib/messaging/messaging-api-request-internal.js:137:29
+2026-02-24T18:23:40.406738Z ? onMessageCreated:     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-02-24T18:23:40.406739Z ? onMessageCreated:     at async Promise.allSettled (index 0)
+2026-02-24T18:23:40.406741Z ? onMessageCreated:     at async /workspace/index.js:126:30 {
+2026-02-24T18:23:40.406743Z ? onMessageCreated:   errorInfo: {
+2026-02-24T18:23:40.406745Z ? onMessageCreated:     code: 'messaging/invalid-argument',
+2026-02-24T18:23:40.406748Z ? onMessageCreated:     message: `Invalid JSON payload received. Unknown name "groupKey" at 'message.android.notification': Cannot find field.`
+2026-02-24T18:23:40.406750Z ? onMessageCreated:   },
+2026-02-24T18:23:40.406752Z ? onMessageCreated:   codePrefix: 'messaging'
+2026-02-24T18:23:40.406754Z ? onMessageCreated: }
+2026-02-24T18:23:40.407745060Z D onMessageCreated: Function execution took 251 ms, finished with status: 'ok'
+2026-02-24T18:33:37.804571Z N onMessageCreated: {"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"wernesto66@gmail.com","principalSubject":"user:wernesto66@gmail.com","oauthInfo":{"oauthClientId":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com"}},"requestMetadata":{"callerIp":"168.243.31.71","callerSuppliedUserAgent":"FirebaseCLI/15.5.1 agent-name/antigravity,gzip(gfe),gzip(gfe)","requestAttributes":{"time":"2026-02-24T18:33:38.092752Z","auth":{}},"destinationAttributes":{}},"serviceName":"cloudfunctions.googleapis.com","methodName":"google.cloud.functions.v1.CloudFunctionsService.UpdateFunction","authorizationInfo":[{"resource":"projects/solchatplus/locations/us-central1/functions/onMessageCreated","permission":"cloudfunctions.functions.update","granted":true,"resourceAttributes":{},"permissionType":"ADMIN_WRITE"}],"resourceName":"projects/solchatplus/locations/us-central1/functions/onMessageCreated","request":{"updateMask":"name,sourceUploadUrl,entryPoint,runtime,dockerRegistry,labels,eventTrigger.eventType,eventTrigger.resource,eventTrigger.failurePolicy,minInstances,maxInstances,ingressSettings,environmentVariables,serviceAccountEmail,availableMemoryMb,timeout,vpcConnector,vpcConnectorEgressSettings,sourceToken,buildEnvironmentVariables","@type":"type.googleapis.com/google.cloud.functions.v1.UpdateFunctionRequest","function":{"name":"projects/solchatplus/locations/us-central1/functions/onMessageCreated","eventTrigger":{"resource":"projects/solchatplus/databases/(default)/documents/chats/{chatId}/messages/{messageId}","eventType":"providers/cloud.firestore/eventTypes/document.create"},"sourceUploadUrl":"https://storage.googleapis.com/uploads-244462635436.us-central1.cloudfunctions.appspot.com/71bdda0d-66f6-450c-b9a3-d3942e8547f6.zip?GoogleAccessId=service-441407458535@gcf-admin-robot.iam.gserviceaccount.com&Expires=1771959816&Signature=t08b4slxO%2B%2BN6ivsMlBRJKNSU46g0Qw5MPu5FbZQ%2F6R%2B3mczAt3GcYeUIDA4dzTHDNgCLPkwZeKbc2CYszTUrR8Ab7pEY5RZPknUYd%2BIJ0Qh9w%2BTNID9iGu4diueJuw0A%2Fn6HWJSe7cQP0%2FJdlgYaa3NhGpyC6URWtZNVMkE4jm9GvASgvgCLB%2FRs00VyoWXzBPzRHVE3kvQor978i4zXX%2FpAoj98ZwT%2FI7hJYvLfZu%2FdDhCyVzOV2qj1%2BRIriPs4cRhEHzYKSCJivbzmRNrPoB%2FadWh6DHfu7MnUF50WAUGdVWikPWj%2FhWRcHyaD2UAzROGZsn3Y3qjOSYHpbbxzQ%3D%3D","runtime":"nodejs22","entryPoint":"onMessageCreated","dockerRegistry":"ARTIFACT_REGISTRY","labels":{"firebase-functions-hash":"1b7b450621d6e141e9fe1c6ea850b43e785cc2db","deployment-tool":"cli-firebase"}}},"resourceLocation":{"currentLocations":["us-central1"]}}
+2026-02-24T18:34:39.576822Z N onMessageCreated: {"@type":"type.googleapis.com/google.cloud.audit.AuditLog","status":{},"authenticationInfo":{},"serviceName":"cloudfunctions.googleapis.com","methodName":"google.cloud.functions.v1.CloudFunctionsService.UpdateFunction","resourceName":"projects/solchatplus/locations/us-central1/functions/onMessageCreated"}
+2026-02-24T18:43:48.720091280Z D onMessageCreated: Function execution started
+2026-02-24T18:43:48.847651Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: a0d5c65d-f034-46cc-9034-3de5d33b37d5
+2026-02-24T18:43:52.742138Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T18:43:52.742417Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T18:43:52.805800Z ? onMessageCreated: [onMessageCreated] Token encontrado para 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4: d0e3nIfjRx...
+2026-02-24T18:43:52.909967Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T18:43:53.092201Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T18:43:53.092430Z ? onMessageCreated: [onMessageCreated] Error en token 0 (d0e3nIfjRx...): messaging/invalid-argument
+2026-02-24T18:43:53.095025174Z D onMessageCreated: Function execution took 4374 ms, finished with status: 'ok'
+2026-02-24T19:41:41.262394966Z D onMessageCreated: Function execution started
+2026-02-24T19:41:41.332142Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: e1db4c11-ea51-4ee5-a672-47bd52a3f591
+2026-02-24T19:41:41.954629Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T19:41:41.954974Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T19:41:42.025795Z ? onMessageCreated: [onMessageCreated] Token encontrado para 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4: d0e3nIfjRx...
+2026-02-24T19:41:42.106556Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T19:41:42.153628Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T19:41:42.153818Z ? onMessageCreated: [onMessageCreated] Error en token 0 (d0e3nIfjRx...): messaging/invalid-argument
+2026-02-24T19:41:42.156568759Z D onMessageCreated: Function execution took 894 ms, finished with status: 'ok'
+2026-02-24T19:42:07.489658330Z D onMessageCreated: Function execution started
+2026-02-24T19:42:07.494595Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: d0848335-cdce-4f47-83be-94a3bb576ec1
+2026-02-24T19:42:07.606679Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T19:42:07.606807Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T19:42:07.679511Z ? onMessageCreated: [onMessageCreated] Token encontrado para 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4: d0e3nIfjRx...
+2026-02-24T19:42:07.738330Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T19:42:07.756845Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T19:42:07.756922Z ? onMessageCreated: [onMessageCreated] Error en token 0 (d0e3nIfjRx...): messaging/invalid-argument
+2026-02-24T19:42:07.758125521Z D onMessageCreated: Function execution took 268 ms, finished with status: 'ok'

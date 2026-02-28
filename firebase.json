@@ -1,0 +1,41 @@
+{
+    "functions": [
+        {
+            "source": "functions",
+            "codebase": "default",
+            "ignore": [
+                "node_modules",
+                ".git",
+                "firebase-debug.log",
+                "firebase-debug.*.log",
+                "*.local"
+            ]
+        }
+    ],
+    "firestore": {
+        "rules": "firestore.rules"
+    },
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "solchatplus",
+                    "appId": "1:441407458535:android:78ef4c510307c1858f2642",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "solchatplus",
+                    "configurations": {
+                        "android": "1:441407458535:android:78ef4c510307c1858f2642",
+                        "ios": "1:441407458535:ios:cdbf0f3fcc070dbe8f2642",
+                        "macos": "1:441407458535:ios:cdbf0f3fcc070dbe8f2642",
+                        "web": "1:441407458535:web:62a642f2fd1433188f2642",
+                        "windows": "1:441407458535:web:a33a2ae1c3aedd0a8f2642"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+2026-02-24T18:43:53.092201Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T18:43:53.092430Z ? onMessageCreated: [onMessageCreated] Error en token 0 (d0e3nIfjRx...): messaging/invalid-argument
+2026-02-24T18:43:53.095025174Z D onMessageCreated: Function execution took 4374 ms, finished with status: 'ok'
+2026-02-24T19:41:41.262394966Z D onMessageCreated: Function execution started
+2026-02-24T19:41:41.332142Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: e1db4c11-ea51-4ee5-a672-47bd52a3f591
+2026-02-24T19:41:41.954629Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T19:41:41.954974Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T19:41:42.025795Z ? onMessageCreated: [onMessageCreated] Token encontrado para 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4: d0e3nIfjRx...
+2026-02-24T19:41:42.106556Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T19:41:42.153628Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T19:41:42.153818Z ? onMessageCreated: [onMessageCreated] Error en token 0 (d0e3nIfjRx...): messaging/invalid-argument
+2026-02-24T19:41:42.156568759Z D onMessageCreated: Function execution took 894 ms, finished with status: 'ok'
+2026-02-24T19:42:07.489658330Z D onMessageCreated: Function execution started
+2026-02-24T19:42:07.494595Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: d0848335-cdce-4f47-83be-94a3bb576ec1
+2026-02-24T19:42:07.606679Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T19:42:07.606807Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T19:42:07.679511Z ? onMessageCreated: [onMessageCreated] Token encontrado para 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4: d0e3nIfjRx...
+2026-02-24T19:42:07.738330Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T19:42:07.756845Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T19:42:07.756922Z ? onMessageCreated: [onMessageCreated] Error en token 0 (d0e3nIfjRx...): messaging/invalid-argument
+2026-02-24T19:42:07.758125521Z D onMessageCreated: Function execution took 268 ms, finished with status: 'ok'
+2026-02-24T19:45:45.323471Z N onMessageCreated: {"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"wernesto66@gmail.com","principalSubject":"user:wernesto66@gmail.com","oauthInfo":{"oauthClientId":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com"}},"requestMetadata":{"callerIp":"168.243.31.71","callerSuppliedUserAgent":"FirebaseCLI/15.5.1 agent-name/antigravity,gzip(gfe),gzip(gfe)","requestAttributes":{"time":"2026-02-24T19:45:45.663192Z","auth":{}},"destinationAttributes":{}},"serviceName":"cloudfunctions.googleapis.com","methodName":"google.cloud.functions.v1.CloudFunctionsService.UpdateFunction","authorizationInfo":[{"resource":"projects/solchatplus/locations/us-central1/functions/onMessageCreated","permission":"cloudfunctions.functions.update","granted":true,"resourceAttributes":{},"permissionType":"ADMIN_WRITE"}],"resourceName":"projects/solchatplus/locations/us-central1/functions/onMessageCreated","request":{"updateMask":"name,sourceUploadUrl,entryPoint,runtime,dockerRegistry,labels,eventTrigger.eventType,eventTrigger.resource,eventTrigger.failurePolicy,minInstances,maxInstances,ingressSettings,environmentVariables,serviceAccountEmail,availableMemoryMb,timeout,vpcConnector,vpcConnectorEgressSettings,sourceToken,buildEnvironmentVariables","@type":"type.googleapis.com/google.cloud.functions.v1.UpdateFunctionRequest","function":{"dockerRegistry":"ARTIFACT_REGISTRY","runtime":"nodejs22","entryPoint":"onMessageCreated","labels":{"firebase-functions-hash":"aa748b7917619d10877a6af1d57de86bdec732fa","deployment-tool":"cli-firebase"},"sourceUploadUrl":"https://storage.googleapis.com/uploads-244462635436.us-central1.cloudfunctions.appspot.com/ced83959-4806-4b82-ba6b-1033b5a186c7.zip?GoogleAccessId=service-441407458535@gcf-admin-robot.iam.gserviceaccount.com&Expires=1771964144&Signature=n0IPbG0X93ThPnK14ae8Y9%2Fl9NFbZ4XOphnWOO%2BMHR7wAUo%2FIshl7rijR3AFl85qpX3GPEdcR4IsTIxam2k5h306j6JRaITZt40uISWSEcAgYxUZcbM%2BP%2B7%2FJS71UatRbiupHkgufstCmB7unPBYEAJl7LwwV7376JqzPb8ntY1ChEeteowT12m6T6KtR4dKLjwSwGotTbIqwyfTn%2FBMokautyWqOUo67Sv72XPgvPIwwMEuxHl4MpfjzRvXjqffr%2B1%2FpWY%2B%2BIqjwDqDguEiFsh6Hve5xsSfPuKFRQsAsyCwhrE%2FzWqMZ0IuqPRgvNqwfd%2B8CFOGorsHDzubO0g%2BpQ%3D%3D","name":"projects/solchatplus/locations/us-central1/functions/onMessageCreated","eventTrigger":{"resource":"projects/solchatplus/databases/(default)/documents/chats/{chatId}/messages/{messageId}","eventType":"providers/cloud.firestore/eventTypes/document.create"}}},"resourceLocation":{"currentLocations":["us-central1"]}}
+2026-02-24T19:46:29.798879377Z D onMessageCreated: Function execution started
+2026-02-24T19:46:29.803387Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: 5c2714f6-8a73-458b-aa1b-e35c883235b8
+2026-02-24T19:46:29.941035Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T19:46:29.941067Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T19:46:29.988007Z ? onMessageCreated: [onMessageCreated] Token encontrado para 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4: d0e3nIfjRx...
+2026-02-24T19:46:30.094799Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T19:46:30.153296Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T19:46:30.153346Z ? onMessageCreated: [onMessageCreated] Error en token 0 (d0e3nIfjRx...): messaging/invalid-argument
+2026-02-24T19:46:30.154202554Z D onMessageCreated: Function execution took 355 ms, finished with status: 'ok'
+2026-02-24T19:50:33.437689Z N onMessageCreated: {"@type":"type.googleapis.com/google.cloud.audit.AuditLog","status":{},"authenticationInfo":{},"serviceName":"cloudfunctions.googleapis.com","methodName":"google.cloud.functions.v1.CloudFunctionsService.UpdateFunction","resourceName":"projects/solchatplus/locations/us-central1/functions/onMessageCreated"}
+2026-02-24T20:02:30.028708710Z D onMessageCreated: Function execution started
+2026-02-24T20:02:30.232466Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: dce569a6-6469-46e9-9714-e0f41d1dabfa
+2026-02-24T20:02:34.027103Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T20:02:34.027757Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T20:02:34.173428Z ? onMessageCreated: [onMessageCreated] Token encontrado para 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4: d0e3nIfjRx...
+2026-02-24T20:02:34.231218Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T20:02:34.422302Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T20:02:34.422556Z ? onMessageCreated: [onMessageCreated] Error en token 0 (d0e3nIfjRx...): messaging/invalid-argument
+2026-02-24T20:02:34.426127298Z D onMessageCreated: Function execution took 4397 ms, finished with status: 'ok'
+2026-02-24T20:03:13.477543858Z D onMessageCreated: Function execution started
+2026-02-24T20:03:13.481099Z ? onMessageCreated: [onMessageCreated] Iniciando para Chat: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1_58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, Mensaje: 8f63a5cb-875c-4094-ab5f-e82690d865d0
+2026-02-24T20:03:13.561088Z ? onMessageCreated: [onMessageCreated] Participantes: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4, 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1. Remitente: 58ttSbEqUGftHtBmPmcacLigRqM1H6BwhoLTw4D4T5c4
+2026-02-24T20:03:13.561237Z ? onMessageCreated: [onMessageCreated] Buscando tokens para: 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1
+2026-02-24T20:03:13.625093Z ? onMessageCreated: [onMessageCreated] Token encontrado para 3KTvZf7PeGimYiv8doTVNoeo7HSHcRz7vQfZxw4eiYL1: fX2S4LzfRR...
+2026-02-24T20:03:13.720666Z ? onMessageCreated: [onMessageCreated] Enviando notificaci├│n a 1 dispositivos...
+2026-02-24T20:03:13.745779Z ? onMessageCreated: [onMessageCreated] RESULTADO: 0 exitosas, 1 fallidas
+2026-02-24T20:03:13.745838Z ? onMessageCreated: [onMessageCreated] Error en token 0 (fX2S4LzfRR...): messaging/invalid-argument
+2026-02-24T20:03:13.746816664Z D onMessageCreated: Function execution took 269 ms, finished with status: 'ok'

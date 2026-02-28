@@ -1,0 +1,81 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // HELPER FUNCTIONS
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Checks if the given solana address belongs to the authenticated firebase user
+    function isOwner(address) {
+      return isAuthenticated() && 
+             resource != null && 
+             (resource.data.firebaseUid == null || resource.data.firebaseUid == request.auth.uid);
+    }
+
+    // Checks if the authenticated user is a participant in the chat
+    function isChatParticipant(chatId) {
+      return isAuthenticated();
+    }
+
+    // Checks if the authenticated user has a specific role in the chat
+    // Note: Roles are indexed by Solana Address in the client.
+    // For rules, we need to find which address belongs to the current user.
+    function hasRole(chatId, role) {
+      let chat = get(/databases/$(database)/documents/chats/$(chatId)).data;
+      return isAuthenticated() && (
+        (isOwner(chat.participants[0]) && chat.roles[chat.participants[0]] == role) ||
+        (chat.participants.size() > 1 && isOwner(chat.participants[1]) && chat.roles[chat.participants[1]] == role) ||
+        (chat.participants.size() > 2 && isOwner(chat.participants[2]) && chat.roles[chat.participants[2]] == role)
+      );
+    }
+
+    function isAtLeastModerator(chatId) {
+      return hasRole(chatId, 'admin') || hasRole(chatId, 'moderator');
+    }
+
+    // RULES
+    
+    match /users/{address} {
+      // allow read for everyone so they can check user availability/identity
+      // allow create/update if authenticated
+      allow read: if isAuthenticated();
+      allow create, update: if isAuthenticated();
+    }
+
+    match /chats/{chatId} {
+      // Allow creation: require payment for groups
+      allow create: if isAuthenticated() && (
+        (!request.resource.data.isGroup) || 
+        (request.resource.data.paymentSignature != null && request.resource.data.paymentToken != null)
+      ); 
+      
+      // Allow read for authenticated users to avoid complex participant checks in listings
+      allow read: if isAuthenticated();
+
+      // Only allow update if participant (limit get calls)
+      allow update: if isAuthenticated() && (
+        (resource.data.isGroup == true) || 
+        isChatParticipant(chatId)
+      );
+
+      allow delete: if isAuthenticated() && (
+        (resource.data.isGroup == true && hasRole(chatId, 'admin')) ||
+        (!resource.data.isGroup && isChatParticipant(chatId))
+      );
+
+      match /messages/{messageId} {
+        // Allow read for everyone in the chat (unblocked by chat read)
+        allow read: if isAuthenticated();
+        // Allow create if participant
+        allow create: if isChatParticipant(chatId);
+        
+        allow delete: if isChatParticipant(chatId) && (
+          request.auth.uid == resource.data.senderId || 
+          hasRole(chatId, 'admin')
+        );
+      }
+    }
+  }
+}

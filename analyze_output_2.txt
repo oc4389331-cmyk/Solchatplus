@@ -1,0 +1,17 @@
+Analyzing solchat...                                            
+
+  error - Undefined name 'scenario' - lib\features\auth\auth_service.dart:32:7 - undefined_identifier
+  error - Undefined name 'scenario' - lib\features\auth\auth_service.dart:37:30 - undefined_identifier
+warning - The value of the local variable 'signedMessage' isn't used - lib\features\auth\auth_service.dart:72:18 - unused_local_variable
+  error - Undefined name 'scenario' - lib\features\auth\auth_service.dart:86:15 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\chat_list_screen.dart:25:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\chat_list_screen.dart:66:45 - deprecated_member_use
+warning - Unnecessary cast - lib\features\chat\chat_list_screen.dart:88:30 - unnecessary_cast
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\chat_list_screen.dart:138:58 - deprecated_member_use
+   info - Unnecessary use of 'toList' in a spread - lib\features\chat\chat_screen.dart:166:26 - unnecessary_to_list_in_spreads
+warning - The declaration '_formatTime' isn't referenced - lib\features\chat\chat_screen.dart:265:10 - unused_element
+   info - Don't invoke 'print' in production code - lib\features\chat\chat_service.dart:96:7 - avoid_print
+warning - Unused import: 'package:firebase_core/firebase_core.dart' - lib\main.dart:1:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\main.dart:15:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\main.dart:17:5 - avoid_print
+
