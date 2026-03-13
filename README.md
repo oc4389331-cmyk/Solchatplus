@@ -1,4 +1,4 @@
-# solchat
+# solchatplus
 
 A new Flutter project.
 
