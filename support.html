@@ -20,9 +20,15 @@
       margin: auto;
     }
 
+    .logo {
+      width: 100px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
     h1 {
       font-size: 2.5em;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     p {
@@ -36,6 +42,22 @@
       padding: 20px;
       border-radius: 10px;
       margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      font-size: 1em;
+      color: white;
+      background: rgba(0,0,0,0.3);
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: rgba(0,0,0,0.6);
     }
 
     a {
@@ -55,14 +77,20 @@
 
   <div class="container">
 
+    <!-- LOGO -->
+    <img src="logo.png" alt="SolChat Plus" class="logo">
+
+    <!-- TITLE -->
     <h1>SolChat Plus Support</h1>
 
     <p>If you have any issues or questions, contact us:</p>
 
+    <!-- CONTACT -->
     <div class="box">
       <p>Email: <a href="mailto:oc4389331@gmail.com">oc4389331@gmail.com</a></p>
     </div>
 
+    <!-- COMMON ISSUES -->
     <div class="box">
       <h3>Common Issues</h3>
       <p>• App not loading → Check your internet connection</p>
@@ -70,10 +98,14 @@
       <p>• Transactions delayed → Network congestion on Solana</p>
     </div>
 
+    <!-- ABOUT -->
     <div class="box">
       <h3>About</h3>
       <p>SolChat Plus is a Web3 messaging app that allows wallet-to-wallet communication and crypto payments on Solana.</p>
     </div>
+
+    <!-- BACK BUTTON -->
+    <a href="index.html" class="btn">← Back to Home</a>
 
   </div>
 
